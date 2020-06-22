@@ -1,0 +1,138 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: lightpink;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 100vw;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: sans-serif;
+}
+
+#headers {
+  height: 50vh;
+  width: 60vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#headers #head {
+  color: white;
+  font-size: 8vw;
+  text-shadow: 2px 0px 3px black;
+}
+
+#headers #searchDiv {
+  margin: 10px;
+  height: 10vh;
+  width: 60vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#headers #inputField {
+  height: 100%;
+  border: none;
+  width: 90%;
+  background-color: white;
+  font-size: 30px;
+  text-align: center;
+}
+
+#headers #inputField:focus {
+  outline: transparent;
+}
+
+#headers #submit {
+  height: 100%;
+  width: 8%;
+  background-color: white;
+  border: none;
+  color: rgba(3, 204, 207, 0.877);
+  font-size: 25px;
+  -webkit-transition-duration: 500ms;
+          transition-duration: 500ms;
+}
+
+#headers #submit:hover {
+  color: black;
+}
+
+#listItems {
+  width: 60vw;
+  min-height: 50vh;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+#listItems .list {
+  margin: 15px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 5vh;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: white;
+  -webkit-transition-duration: 1000ms;
+          transition-duration: 1000ms;
+}
+
+#listItems .listBtn {
+  margin: 4px;
+  height: 4vh;
+  font-size: 2vh;
+  width: 4vh;
+  background-color: white;
+  color: rgba(3, 204, 207, 0.877);
+  border: none;
+  border-radius: 100%;
+  -webkit-transition-duration: 600ms;
+          transition-duration: 600ms;
+}
+
+#listItems .listBtn:hover {
+  background-color: black;
+}
+
+#listItems .listText {
+  margin: 5px;
+}
+/*# sourceMappingURL=to-do.css.map */
